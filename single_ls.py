@@ -5,7 +5,7 @@ class Node:
         self.data = data
         self.next = next
 
-class LinkedLisr:
+class LinkedList:
     def __init__(self):
         self.head = None
     
@@ -114,7 +114,7 @@ class LinkedLisr:
                 return
             itr = itr.next
 
-llist = LinkedLisr()
+llist = LinkedList()
 llist.insert_list([1,2,3,4,5,6])
 llist.print()
 llist.delete_by_value(0)
