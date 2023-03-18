@@ -114,11 +114,13 @@ class LinkedList:
                 return
             itr = itr.next
 
-llist = LinkedList()
-llist.insert_list([1,2,3,4,5,6])
-llist.print()
-llist.delete_by_value(0)
-llist.print()
+if __name__ == "__main__":
+
+    llist = LinkedList()
+    llist.insert_list([1,2,3,4,5,6])
+    llist.print()
+    llist.delete_by_value(0)
+    llist.print()
 
 
 

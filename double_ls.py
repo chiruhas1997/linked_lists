@@ -52,11 +52,9 @@ class LinkedList:
         for n in num_list:
             self.insert_at_end(n)
 
-llist = LinkedList()
-# llist.insert_at_end(5)
-# llist.insert_at_end(10)
-# llist.insert_at_end(15)
-# llist.insert_at_start(0)
-llist.insert_list([0,1,2,3,4,5])
-llist.print_from_front()
-llist.print_from_back()
+
+if __name__ == "__main__":
+    llist = LinkedList()
+    llist.insert_list([0,1,2,3,4,5])
+    llist.print_from_front()
+    llist.print_from_back()
